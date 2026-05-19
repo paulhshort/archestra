@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.2.51](https://github.com/archestra-ai/archestra/compare/platform-v1.2.50...platform-v1.2.51) (2026-05-19)
+
+
+### Features
+
+* **catalog:** add Sensitive column to MCP Headers table ([#4840](https://github.com/archestra-ai/archestra/issues/4840)) ([11ac36b](https://github.com/archestra-ai/archestra/commit/11ac36b1d984623221b575668464fc5ee4b8593e))
+
+
+### Bug Fixes
+
+* **chat:** search palette showing "No recent chats" ([#4845](https://github.com/archestra-ai/archestra/issues/4845)) ([da74b89](https://github.com/archestra-ai/archestra/commit/da74b8918e8f60161a8fa3a6ea9727ef8ebfe017))
+* default model fallback prefers "best" over alphabetically-first ([#4829](https://github.com/archestra-ai/archestra/issues/4829)) ([8207a6d](https://github.com/archestra-ai/archestra/commit/8207a6de1cf2bb7753b1729aa8f2383695a35a00))
+* **e2e:** repair mcp-install bogus-image test against post-[#4402](https://github.com/archestra-ai/archestra/issues/4402)/[#4696](https://github.com/archestra-ai/archestra/issues/4696) UI ([#4706](https://github.com/archestra-ai/archestra/issues/4706)) ([c5ea425](https://github.com/archestra-ai/archestra/commit/c5ea4255331a295ca1b1b04a1c4a3397e39027d8))
+* PermissionButton honors flex-1 className when wrapped in tooltip span ([#4834](https://github.com/archestra-ai/archestra/issues/4834)) ([60ca5c3](https://github.com/archestra-ai/archestra/commit/60ca5c3f50bb117d04077645fa7c3a2443f914e3))
+
+
+### Code Refactoring
+
+* **catalog:** consolidate cascade-reinstall confirm dialogs into inline bar ([#4838](https://github.com/archestra-ai/archestra/issues/4838)) ([bfe9ba8](https://github.com/archestra-ai/archestra/commit/bfe9ba830ceb8ade18689e85dec895d49d0ad37a))
+
+
+### Miscellaneous Chores
+
+* **e2e:** skip flaky bogus-image install test ([#4848](https://github.com/archestra-ai/archestra/issues/4848)) ([dcd211d](https://github.com/archestra-ai/archestra/commit/dcd211d55b1e9838801b3e66c3302412e132f41f))
+
 ## [1.2.50](https://github.com/archestra-ai/archestra/compare/platform-v1.2.48...platform-v1.2.50) (2026-05-19)
 
 
